@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 50px;
+  background-color: #fff;
+}
+
+.game {
+  margin: 20px auto;
+  padding: 20px;
+  border: 2px solid #333;
+  max-width: 400px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
+
+/* Button styles */
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+button.rounded {
+  border-radius: 12px;
+}
+
+button.flat {
+  background-color: #333;
+  color: white;
+  border: none;
+}
+
+button.default {
+  border: 2px solid #333;
+}
